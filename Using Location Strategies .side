@@ -1,0 +1,28 @@
+{
+  "id": "83391ad7-1bc3-4a6e-a857-664aa7722452",
+  "version": "2.0",
+  "name": "Using Location Strategies ",
+  "url": "",
+  "tests": [{
+    "id": "86083ddf-7a81-45c0-86b9-8f9382edcd85",
+    "name": "Untitled",
+    "commands": [{
+      "id": "307543cc-ae53-472a-a0a6-b65f259399d3",
+      "comment": "",
+      "command": "check",
+      "target": "id=firstName ",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b2c723e7-997b-44ae-befa-f71577b671b1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["86083ddf-7a81-45c0-86b9-8f9382edcd85"]
+  }],
+  "urls": [],
+  "plugins": []
+}

@@ -1,0 +1,74 @@
+{
+  "id": "eca9df8a-cab3-40bf-8772-8d107ef70e6f",
+  "version": "2.0",
+  "name": "May 3rd 2023 Project ",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "9b111a0d-1f16-401c-bdc4-e657bb06b6fd",
+    "name": "testcase1",
+    "commands": [{
+      "id": "763ab614-f9b6-4c8e-9177-e62f63b36d57",
+      "comment": "",
+      "command": "open",
+      "target": "/webhp?hl=en&sa=X&ved=0ahUKEwiP8eT1gdr-AhWanGoFHYsnB7wQPAgJ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d9e1c42-84e4-456c-b941-57aa171b64fa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "778x869",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02dff330-f237-473e-bdd1-888f7dc68a79",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.gb_ma", "css:finder"],
+        ["xpath=//div[@id='gb']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/webhp%3Fhl%3Den%26sa%3DX%26ved%3D0ahUKEwiP8eT1gdr-AhWanGoFHYsnB7wQPAgJ&ec=GAZAmgQ')]", "xpath:href"],
+        ["xpath=//body/div/div/div/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb798c83-14c4-441f-a346-8fd64e414efd",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Selenium"
+    }, {
+      "id": "13e6edf0-1c2e-4abf-a4ca-cf9162e06237",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnK",
+      "targets": [
+        ["name=btnK", "name"],
+        ["css=center:nth-child(2) > .gNO89b", "css:finder"],
+        ["xpath=//input[@name='btnK']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2db3dab9-40c8-473d-9bb1-e9674757e8f9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9b111a0d-1f16-401c-bdc4-e657bb06b6fd"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
